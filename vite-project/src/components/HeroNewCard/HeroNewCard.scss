@@ -1,0 +1,22 @@
+@import "../../scss/foundation/variables";
+
+.hero__new__card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    & h3 {
+        font-size: 1.7rem;
+        padding-top: 2rem;
+    }
+
+    & p {
+        font-size: 1.2rem;
+        color: $grey-blue;
+        padding-bottom: 2rem;
+    }
+
+    & hr {
+        border: 1px solid grey;
+    }
+}
