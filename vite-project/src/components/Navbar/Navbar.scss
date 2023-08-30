@@ -1,0 +1,22 @@
+@import "../../scss/foundation/variables";
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem; 
+    padding-top: 3rem;
+
+    & h1 {
+        font-size: 5rem;
+        cursor: pointer;
+    }
+}
+
+.nav__links {
+    display: flex;
+    gap: 3rem;
+    font-size: 1.8rem;
+    color: $dark-grey-blue;
+    font-family: $inter;
+}

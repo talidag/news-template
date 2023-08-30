@@ -1,0 +1,12 @@
+@import "../../scss/foundation/variables";
+
+.nav__link {
+    text-decoration: none;
+    color: inherit;
+    transform: all 1s ease-in;
+    
+    &:hover {
+        font-weight: $bold;
+    }
+
+}
