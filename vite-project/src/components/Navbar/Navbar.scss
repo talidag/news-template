@@ -6,16 +6,22 @@ nav {
     align-items: center;
     padding: 2rem; 
     padding-top: 3rem;
+    font-family: $inter;
 
     & h1 {
         font-size: 5rem;
         cursor: pointer;
+        transition: all .3s ease-in;
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }
 
 .nav__links {
     display: flex;
-    gap: 3rem;
+    gap: 4rem;
     font-size: 1.8rem;
     color: $dark-grey-blue;
     font-family: $inter;

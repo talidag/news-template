@@ -8,9 +8,10 @@ main {
 .grid__wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, .5fr);
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
+  
 }
 
 .img__wrapper {
@@ -47,6 +48,12 @@ main {
         font-weight: 600;
         letter-spacing: .3rem;
         font-family: inherit;
+        cursor: pointer;
+        transition: all .3s ease;
+
+        &:hover {
+            background-color: $dark-grey-blue
+        }
     }
 }
 
@@ -55,10 +62,12 @@ main {
     background-color: hsl(240, 100%, 5%);
     color:hsl(36, 100%, 99%);
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
         & h1 {
             color: hsl(35, 77%, 62%);
             font-size: 3rem;
-            padding-bottom: 2rem;
         }
 }
