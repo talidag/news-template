@@ -39,18 +39,6 @@ const Hero = () => {
           ))}
         </div>
       </div>
-
-      {/* 
-      <div className="bot">
-        <h3>01 Reviving Retro PCs</h3>
-        <p>What happens when old PCs are given modern upgrades?</p>
-
-        <h3>02 Top 10 Laptops of 2022</h3>
-        <p>Our best picks for various needs and budgets.</p>
-
-        <h3>03 The Growth of Gaming</h3>
-        <p>How the pandemic has sparked fresh opportunities.</p>
-      </div> */}
     </main>
   );
 };

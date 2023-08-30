@@ -1,1 +1,8 @@
 @import './scss/foundation/reset';
+
+.app {
+    margin: 0 auto;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    max-width: 144rem;
+}
